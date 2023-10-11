@@ -2,12 +2,12 @@ package com.estudo.interfaces;
 
 public interface CalculateSalaryInterface {
 
-    public Double calculateInss(Double valorSario);
+    public Double calculateInss(Double salary);
 
 
     //Exemplo do modificardor default.
-    default double salaryByYear(Double valorSalario){
-        return valorSalario * 12;
+    default double salaryByYear(Double salary){
+        return salary * 12;
     }
 }
 
